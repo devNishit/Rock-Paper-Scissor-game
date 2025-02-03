@@ -4,7 +4,7 @@ let RPS= document.querySelectorAll(".rps");
 console.log(RPS);
 let userSelection="";
 let comSelection="";
-let Game=["Rock","Paper","Scizzer"];
+let Game=["Rock","Paper","Scissor"];
 let msg=document.querySelector("#msg");
 let floatMsg = document.querySelector(".floatmsg");
 let userImg=document.querySelector(".userimg");
@@ -64,13 +64,13 @@ function compare(){
     
     else if (userSelection=="Rock"){
         var userWin = comSelection=="Paper" ? true :false;
-        var userWin = comSelection=="Scizzer" ? true :false;
+        var userWin = comSelection=="Scissor" ? true :false;
         
     }
 
     else if(userSelection=="Paper"){
         var userWin = comSelection=="Rock" ? true :false;
-        var userWin = comSelection=="Scizzer" ? false :true;
+        var userWin = comSelection=="Scissor" ? false :true;
         
     }
 
