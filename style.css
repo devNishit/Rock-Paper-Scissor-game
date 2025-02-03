@@ -104,7 +104,7 @@ p{
     margin-top: 40px;
 }
 
-.rock,.paper,.sizzer{
+.rock,.paper,.Scissor{
     height: 100px;
     width: 100px;
     background-color: #604CC3;
@@ -127,8 +127,8 @@ p{
     background-position-x: 147px;
     background-position-y: 143px;
 }
-.sizzer{
-    background-image: url("assates/sizzer.png");
+.Scissor{
+    background-image: url("assates/Scissor.png");
     background-size: 160px;
     background-position-x: 149px;
     background-position-y: 125px;
